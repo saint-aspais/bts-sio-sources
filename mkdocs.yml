@@ -1,0 +1,44 @@
+site_name: Institution Saint-Aspais BTS SIO
+
+nav:
+    - Home: index.md
+
+    - BTS SIO 1ère année:
+
+      - Python:
+        - bts-sio-1/python/boucles.md
+        - bts-sio-1/python/chaines.md
+        - bts-sio-1/python/collections.md
+        - bts-sio-1/python/fichiers.md
+        - bts-sio-1/python/fonction.md
+        - bts-sio-1/python/listes.md
+        - bts-sio-1/python/tests.md
+
+    - BTS SIO 2ième année:
+
+      - Cybersécurité:
+        - bts-sio-2/cybersecurite/authentification_principes.md
+        - bts-sio-2/cybersecurite/rgpd.md
+        - bts-sio-2/cybersecurite/sql_injection.md
+
+theme:
+  name: material
+  hljs_languages:
+    -python
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - admonition
+
+  - attr_list
+  
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
